@@ -27,7 +27,7 @@ const Tokenomics = () => {
           { percentage: "50", label: "LIQUIDITY" },
           { percentage: "20", label: "SPACE COMMUNITY BUILDING" },
           { percentage: "10", label: "STRATEGIC PARTNERSHIPS" },
-          { percentage: "5", label: "HEROS OF COMMERCIAL CREW PROGRAM" },
+          { percentage: "5", label: "HEROS OF NASA'S SPACEX CREW-9" },
           { percentage: "5", label: "TEAM" },
           { percentage: "10", label: "SMART FUTURE RESERVE" }
         ].map((item, index) => (
