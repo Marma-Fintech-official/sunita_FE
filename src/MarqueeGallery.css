@@ -1,0 +1,42 @@
+@keyframes marquee-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-20%);
+    }
+  }
+  
+  @keyframes marquee-right {
+    from {
+      transform: translateX(-20%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-marquee-left {
+    animation: marquee-left 20s linear infinite;
+  }
+  
+  .animate-marquee-right {
+    animation: marquee-right 20s linear infinite;
+  }
+  
+  /* Pause animations when user prefers reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee-left,
+    .animate-marquee-right {
+      animation: none;
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .animate-marquee-left,
+    .animate-marquee-right {
+      animation-duration: 15s;
+    }
+  }
+  
