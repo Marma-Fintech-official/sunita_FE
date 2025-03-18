@@ -24,12 +24,12 @@ const Tokenomics = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 max-w-7xl mx-auto mt-10 lg:mt-20 px-4 lg:px-0">
         {/* Box Component - reused for each tokenomics item */}
         {[
-          { percentage: "55", label: "LIQUIDITY POOL" },
-          { percentage: "20", label: "MARKETING" },
-          { percentage: "10", label: "TEAM" },
-          { percentage: "5", label: "SUNITA WILLIAMS" },
-          { percentage: "5", label: "SPACE X" },
-          { percentage: "5", label: "BUTCH WILMORE" }
+          { percentage: "50", label: "LIQUIDITY" },
+          { percentage: "20", label: "SPACE COMMUNITY BUILDING" },
+          { percentage: "10", label: "STRATEGIC PARTNERSHIPS" },
+          { percentage: "5", label: "HEROS OF COMMERCIAL CREW PROGRAM" },
+          { percentage: "5", label: "TEAM" },
+          { percentage: "10", label: "SMART FUTURE RESERVE" }
         ].map((item, index) => (
           <div key={index} className="relative px-2 py-4 lg:px-10 lg:py-8 my-4 lg:my-0">
             <div className="absolute -inset-[10px] lg:-inset-[15px] pointer-events-none">
